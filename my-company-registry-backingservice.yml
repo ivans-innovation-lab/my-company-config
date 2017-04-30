@@ -1,3 +1,8 @@
+info:
+  app:
+    name: My Company - Registry
+    description: Eureka
+    
 server:
   port: ${PORT:8761}
 
