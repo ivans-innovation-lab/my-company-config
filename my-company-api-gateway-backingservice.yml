@@ -19,13 +19,13 @@ authserver:
 
 zuul:
   routes:
-    command-side-blog:
+    my-company-blog-domain-microservice:
       path: /command/blog/**
-    query-side-blog:
+    my-company-blog-materialized-view-microservice:
       path: /query/blog/**
-    command-side-project:
+    my-company-project-domain-microservice:
       path: /command/project/**
-    query-side-project:
+    my-company-project-materialized-view-microservice:
       path: /query/project/**
 
 # Define the Eureka server that handles service registration
