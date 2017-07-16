@@ -76,10 +76,10 @@ authserver:
 spring:
   profiles: cloud
 
-authserver:
-  hostname: ${vcap.services.authserver.credentials.uri}
-  port: 80
-  contextPath: uaa
+#authserver:
+#  hostname: ${vcap.services.authserver.credentials.uri}
+#  port: 80
+#  contextPath: uaa
   
 eureka:
   instance:
